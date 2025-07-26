@@ -54,6 +54,7 @@ description: >-
 
 
   For more information on Datum, please visit https://github.com/OCEAN-xyz/datum_gateway
+icon: https://getumbrel.github.io/umbrel-apps-gallery/datum/icon.svg
 developer: OCEAN
 website: https://ocean.xyz
 dependencies:
