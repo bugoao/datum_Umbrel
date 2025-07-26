@@ -3,11 +3,11 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: datummining_1
+      APP_HOST: datummining_datum_1
       APP_PORT: 20000
 
   datum:
-    image: ghcr.io/bugoao/datum_gateway:main
+    image: ghcr.io/bugoao/datum_gateway@sha256:7502a6f0443774833a35b22076723e990ddf3aa9d52e13321bdf491d43b8f7e6
     entrypoint: ["/app/datum_gateway"]
     command: ["--config=/app/conf/datum_gateway_config.json"]
     user: 1000:1000
