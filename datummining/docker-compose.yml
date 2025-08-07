@@ -7,7 +7,7 @@ services:
       APP_PORT: 20000
 
   datum:
-    image: ghcr.io/bugoao/datum_gateway:1368
+    image: ghcr.io/bugoao/datum_gateway:main@sha256:aee7b6172c8da3d621912aa4bc16a7e9d2f9ad7d27ec51fb5857a53f93b90a2d
     entrypoint: ["/app/datum_gateway"]
     command: ["--config=/app/conf/datum_gateway_config.json"]
     user: 1000:1000
